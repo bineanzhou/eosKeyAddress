@@ -10,4 +10,4 @@ Android NDK .mk files are also tested.
 void eosPrivate2Address(const char privIn[64], char * privStr, char *addrStr);   
 
 input: privIn - the orignal privKey hex string of 32 bytes. You should produce a good random 256bits number       
-output: privStr - EOS privKey WIF format. addrStr: EOS address   
+output: privStr - EOS privKey WIF format. addrStr - EOS address   
